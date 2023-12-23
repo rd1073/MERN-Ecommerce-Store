@@ -1,4 +1,5 @@
 const mongoose = require("mongoose")
+require('dotenv').config();
 
 const conn = mongoose.createConnection(process.env.MONGO_URL);
 conn.on('connected', () => {
@@ -8,14 +9,13 @@ conn.on('error', (err) => {
   console.error(`Mongoose connection error: ${err}`);
 });
 
-
+ 
 const userSchema = new mongoose.Schema(
     {
       username: {
         type: String,
         required: true,
-          unique: true,
-
+          
       
       },
       

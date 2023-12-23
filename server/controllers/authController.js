@@ -1,4 +1,4 @@
- const { User }=require("../config/db")
+const { User }=require("../config/db")
 const generateToken = require("../config/generateToken");
 const bcrypt = require("bcrypt");
 
@@ -40,7 +40,7 @@ const Register = async (req, res) => {
       res.status(201).json({
         _id: user._id,
         username: user.username,
-        userType: user.userType,
+        
         
       });
     } catch (err) {
@@ -75,7 +75,7 @@ const Register = async (req, res) => {
           });
       } else{
         res.status(401);
-        throw new Error("Invalid Email or Password");
+        throw new Error("Invalid Username or Password");
 
       }
     } catch (err) {
