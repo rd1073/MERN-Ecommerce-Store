@@ -1,0 +1,404 @@
+[
+    {
+      "name": "Samsung Galaxy S21",
+      "type": "Smartphone",
+      "processor": "Exynos 2100",
+      "memory": "128GB/8GB RAM",
+      "os": "Android 11",
+      "price": 799.99
+    },
+    {
+      "name": "iPhone 13 Pro",
+      "type": "Smartphone",
+      "processor": "A15 Bionic",
+      "memory": "256GB/6GB RAM",
+      "os": "iOS 15",
+      "price": 1099.99
+    },
+    {
+      "name": "Google Pixel 6",
+      "type": "Smartphone",
+      "processor": "Google Tensor",
+      "memory": "128GB/6GB RAM",
+      "os": "Android 12",
+      "price": 699.99
+    },
+    {
+      "name": "OnePlus 9",
+      "type": "Smartphone",
+      "processor": "Snapdragon 888",
+      "memory": "256GB/12GB RAM",
+      "os": "OxygenOS (Android 11)",
+      "price": 899.99
+    },
+    {
+      "name": "Xiaomi Redmi Note 10",
+      "type": "Smartphone",
+      "processor": "Snapdragon 678",
+      "memory": "64GB/4GB RAM",
+      "os": "MIUI 12 (Android 10)",
+      "price": 249.99
+    },
+    {
+      "name": "Sony Xperia 5 III",
+      "type": "Smartphone",
+      "processor": "Snapdragon 888",
+      "memory": "256GB/8GB RAM",
+      "os": "Android 11",
+      "price": 999.99
+    },
+    {
+      "name": "LG G8 ThinQ",
+      "type": "Smartphone",
+      "processor": "Snapdragon 855",
+      "memory": "128GB/6GB RAM",
+      "os": "Android 10",
+      "price": 599.99
+    },
+    {
+      "name": "Motorola Moto G Power",
+      "type": "Smartphone",
+      "processor": "Snapdragon 662",
+      "memory": "64GB/4GB RAM",
+      "os": "Android 10",
+      "price": 279.99
+    },
+    {
+      "name": "Nokia 7.2",
+      "type": "Smartphone",
+      "processor": "Snapdragon 660",
+      "memory": "128GB/6GB RAM",
+      "os": "Android 10",
+      "price": 349.99
+    },
+    {
+      "name": "Asus ROG Phone 5",
+      "type": "Gaming Smartphone",
+      "processor": "Snapdragon 888+",
+      "memory": "256GB/12GB RAM",
+      "os": "ROG UI (Android 11)",
+      "price": 1299.99
+    },
+    {
+      "name": "Huawei P40 Pro",
+      "type": "Smartphone",
+      "processor": "Kirin 990",
+      "memory": "256GB/8GB RAM",
+      "os": "EMUI 10 (Android 10)",
+      "price": 899.99
+    },
+    {
+      "name": "Oppo Find X3 Pro",
+      "type": "Smartphone",
+      "processor": "Snapdragon 888",
+      "memory": "256GB/12GB RAM",
+      "os": "ColorOS 11.2 (Android 11)",
+      "price": 1099.99
+    },
+    {
+      "name": "Vivo X60 Pro",
+      "type": "Smartphone",
+      "processor": "Exynos 1080",
+      "memory": "256GB/12GB RAM",
+      "os": "Funtouch OS 11.1 (Android 11)",
+      "price": 899.99
+    },
+    {
+      "name": "Realme 8 Pro",
+      "type": "Smartphone",
+      "processor": "Snapdragon 720G",
+      "memory": "128GB/6GB RAM",
+      "os": "Realme UI 2.0 (Android 11)",
+      "price": 279.99
+    },
+    {
+      "name": "BlackBerry Key2",
+      "type": "Smartphone",
+      "processor": "Snapdragon 660",
+      "memory": "64GB/6GB RAM",
+      "os": "Android 8.1",
+      "price": 499.99
+    },
+    {
+      "name": "Lenovo Legion Phone Duel",
+      "type": "Gaming Smartphone",
+      "processor": "Snapdragon 865+",
+      "memory": "256GB/12GB RAM",
+      "os": "Legion OS (Android 10)",
+      "price": 999.99
+    },
+    {
+      "name": "ZTE Axon 30 Ultra",
+      "type": "Smartphone",
+      "processor": "Snapdragon 888",
+      "memory": "256GB/8GB RAM",
+      "os": "MiFavor 12 (Android 11)",
+      "price": 799.99
+    },
+    {
+      "name": "Xiaomi Mi 11",
+      "type": "Smartphone",
+      "processor": "Snapdragon 888",
+      "memory": "256GB/8GB RAM",
+      "os": "MIUI 12.5 (Android 11)",
+      "price": 699.99
+    },
+    {
+      "name": "Sony Xperia 1 III",
+      "type": "Smartphone",
+      "processor": "Snapdragon 888",
+      "memory": "256GB/12GB RAM",
+      "os": "Android 11",
+      "price": 1199.99
+    },
+    {
+      "name": "Motorola Edge 20 Pro",
+      "type": "Smartphone",
+      "processor": "Snapdragon 870",
+      "memory": "256GB/8GB RAM",
+      "os": "My UX (Android 11)",
+      "price": 699.99
+    },
+    {
+      "name": "Nokia 8.3 5G",
+      "type": "Smartphone",
+      "processor": "Snapdragon 765G",
+      "memory": "128GB/8GB RAM",
+      "os": "Android 10",
+      "price": 499.99
+    },
+    {
+      "name": "Asus Zenfone 8",
+      "type": "Smartphone",
+      "processor": "Snapdragon 888",
+      "memory": "256GB/8GB RAM",
+      "os": "ZenUI 8 (Android 11)",
+      "price": 799.99
+    },
+    {
+      "name": "LG Velvet",
+      "type": "Smartphone",
+      "processor": "Snapdragon 765G",
+      "memory": "128GB/6GB RAM",
+      "os": "Android 10",
+      "price": 499.99
+    },
+    {
+      "name": "Google Pixel 5a",
+      "type": "Smartphone",
+      "processor": "Snapdragon 765G",
+      "memory": "128GB/6GB RAM",
+      "os": "Android 11",
+      "price": 449.99
+    },
+    {
+      "name": "HTC U20 5G",
+      "type": "Smartphone",
+      "processor": "Snapdragon 765G",
+      "memory": "256GB/8GB RAM",
+      "os": "Android 10",
+      "price": 599.99
+    },
+    {
+      "name": "OnePlus Nord 2",
+      "type": "Smartphone",
+      "processor": "MediaTek Dimensity 1200",
+      "memory": "256GB/12GB RAM",
+      "os": "OxygenOS (Android 11)",
+      "price": 499.99
+    },
+    {
+      "name": "Xiaomi Poco X3 Pro",
+      "type": "Smartphone",
+      "processor": "Snapdragon 860",
+      "memory": "128GB/6GB RAM",
+      "os": "MIUI 12 (Android 11)",
+      "price": 249.99
+    },
+  
+    {
+      "Price": 29678,
+      "Name": "vivo 19 Pro Max",
+      "Type": "Android",
+      "Processor": "Qualcomm Snapdragon 8 Gen 1",
+      "Memory": "12GB RAM + 512GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 22594,
+      "Name": "Apple 67 Pro Max",
+      "Type": "iOS",
+      "Processor": "MediaTek Dimensity 9000",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 31030,
+      "Name": "vivo 23 Pro Max",
+      "Type": "Android",
+      "Processor": "Qualcomm Snapdragon 8 Gen 1",
+      "Memory": "4GB RAM + 64GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 45766,
+      "Name": "Xiaomi 79 Pro Max",
+      "Type": "Android",
+      "Processor": "Exynos 2200",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 11775,
+      "Name": "Realme 44 Pro Max",
+      "Type": "iOS",
+      "Processor": "Qualcomm Snapdragon 8 Gen 1",
+      "Memory": "8GB RAM + 256GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 13192,
+      "Name": "OnePlus 99 Pro Max",
+      "Type": "Android",
+      "Processor": "Apple A15 Bionic",
+      "Memory": "12GB RAM + 512GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 27690,
+      "Name": "Xiaomi 20 Pro Max",
+      "Type": "iOS",
+      "Processor": "MediaTek Dimensity 9000",
+      "Memory": "8GB RAM + 256GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 19940,
+      "Name": "OPPO 11 Pro Max",
+      "Type": "Android",
+      "Processor": "Apple A15 Bionic",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 32066,
+      "Name": "Realme 77 Pro Max",
+      "Type": "iOS",
+      "Processor": "Qualcomm Snapdragon 8 Gen 1",
+      "Memory": "8GB RAM + 256GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 39650,
+      "Name": "Apple 27 Pro Max",
+      "Type": "iOS",
+      "Processor": "Apple A15 Bionic",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 48112,
+      "Name": "Realme 43 Pro Max",
+      "Type": "Android",
+      "Processor": "Exynos 2200",
+      "Memory": "12GB RAM + 512GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 13121,
+      "Name": "OPPO 70 Pro Max",
+      "Type": "iOS",
+      "Processor": "Exynos 2200",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 22753,
+      "Name": "vivo 56 Pro Max",
+      "Type": "Android",
+      "Processor": "Apple A15 Bionic",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 24334,
+      "Name": "Realme 53 Pro Max",
+      "Type": "iOS",
+      "Processor": "Qualcomm Snapdragon 8 Gen 1",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 11580,
+      "Name": "Xiaomi 52 Pro Max",
+      "Type": "iOS",
+      "Processor": "Exynos 2200",
+      "Memory": "8GB RAM + 256GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 34007,
+      "Name": "Realme 67 Pro Max",
+      "Type": "iOS",
+      "Processor": "Apple A15 Bionic",
+      "Memory": "8GB RAM + 256GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 23197,
+      "Name": "vivo 74 Pro Max",
+      "Type": "iOS",
+      "Processor": "Apple A15 Bionic",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 13278,
+      "Name": "Realme 73 Pro Max",
+      "Type": "iOS",
+      "Processor": "Qualcomm Snapdragon 8 Gen 1",
+      "Memory": "6GB RAM + 128GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 12019,
+      "Name": "OnePlus 27 Pro Max",
+      "Type": "Android",
+      "Processor": "Exynos 2200",
+      "Memory": "4GB RAM + 64GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 24427,
+      "Name": "Realme 30 Pro Max",
+      "Type": "iOS",
+      "Processor": "Apple A15 Bionic",
+      "Memory": "8GB RAM + 256GB ROM",
+      "Operating System": "Android 12"
+    },
+    {
+      "Price": 23216,
+      "Name": "Google 15 Pro Max",
+      "Type": "Android",
+      "Processor": "Exynos 2200",
+      "Memory": "8GB RAM + 256GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 38065,
+      "Name": "OnePlus 42 Pro Max",
+      "Type": "iOS",
+      "Processor": "MediaTek Dimensity 9000",
+      "Memory": "8GB RAM + 256GB ROM",
+      "Operating System": "iOS 16"
+    },
+    {
+      "Price": 11771,
+      "Name": "vivo 46 Pro Max",
+      "Type": "iOS",
+      "Processor": "Exynos 2200",
+      "Memory": "12",
+      "Operating System": null
+    }
+  ]
+  
