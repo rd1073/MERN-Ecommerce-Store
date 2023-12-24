@@ -31,9 +31,39 @@ const userSchema = new mongoose.Schema(
   const User = conn.model('User', userSchema);
 
 
+  const productSchema = new mongoose.Schema({
+    name: {
+      type: String,
+      required: true,
+    },
+    type: {
+      type: String,
+      required: true,
+    },
+    processor: {
+      type: String,
+      required: true,
+    },
+    memory: {
+      type: String,
+      required: true,
+    },
+    os: {
+      type: String,
+      required: true,
+    },
+    price: {
+      type: Number,
+      required: true,
+    },
+    image: {
+      data: Buffer,
+      contentType: String,
+    },
+  });
+
+  const Product = conn.model('Product', productSchema);
 
 
 
-
-
-module.exports = { conn, User};
+module.exports = { conn, User, Product};
