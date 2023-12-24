@@ -49,6 +49,8 @@ const Login = () => {
       sessionStorage.setItem('userInfo', JSON.stringify(res.data));
 
       navigate('/');
+      window.location.reload();
+
     } catch (error) {
       console.log(error);
     }
