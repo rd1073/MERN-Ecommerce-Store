@@ -6,6 +6,8 @@ const app = express();
 const cors = require('cors');
 
 const authRoutes=require("./routes/authRoutes")
+const productRoutes=require("./routes/productRoutes")
+
 
 
 
@@ -23,5 +25,8 @@ app.use(cors());
 
 //auth api
 app.use("/auth", authRoutes);
+
+//poduct routes
+app.use("/", productRoutes);
 
 app.listen(process.env.PORT,console.log(`Server running on 5000`));
