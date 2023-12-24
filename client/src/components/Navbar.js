@@ -36,28 +36,30 @@ const Nav= () => {
 
       <Navbar.Brand href="/">Ecommerce Site</Navbar.Brand>       
 
-     {/* <NavbarText className="mx-auto">
-        <Form.Control
-          type="search"
-          placeholder="Search"
-          aria-label="Search" />
-      </NavbarText>
-      <Dropdown>
-    <Dropdown.Toggle variant="success" id="dropdown-basic">
-                                    
-    <FaShoppingCart />
-    
-    <Badge bg="secondary">{10}</Badge>
-    </Dropdown.Toggle>
-    <Dropdown.Menu>
-      <span>Cart is empty!</span>
-    </Dropdown.Menu>
-  </Dropdown>*/}
-
-          
-                      <Button onClick={handleLogout}>
+      {!auth?.user ? (
+                <>
+                  
+                    <NavLink to="/register" className="nav-link">
+                      Register
+                    </NavLink>
+                  
+                    <NavLink to="/login" className="nav-link">
+                      Login
+                    </NavLink>
+                  
+                </>
+              ) : (
+                <>
+                <NavLink to="/profile" className="nav-link">
+                      Profile
+                    </NavLink>
+                   <Button onClick={handleLogout}>
                           Logout
                         </Button>
+                </>
+              )}
+          
+                      
   
     </Container>
   </Navbar>

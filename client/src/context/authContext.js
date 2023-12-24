@@ -8,14 +8,14 @@ const AuthProvider = ({ children }) => {
   const [log, setLog] = useState(false);
 
 
-  //default axios
+   
  
   useEffect(() => {
     const data = sessionStorage.getItem("userInfo");
      
     if (data) {
       const parseData = JSON.parse(data);
-      console.log(parseData)
+     // console.log(parseData)
       setAuth({
         ...auth,
         user: parseData.username,
@@ -37,50 +37,4 @@ const AuthProvider = ({ children }) => {
 const useAuth = () => useContext(AuthContext);
 
 export { useAuth, AuthProvider };
-
-{/*import React, { useState, useEffect, useContext, createContext } from "react";
-import axios from "axios";
-
-const AuthContext = createContext();
-
  
-const useAuth = () => 
-useContext(AuthContext);
-
-
-
-const AuthProvider = ({ props }) => {
-  const [auth, setAuth] = useState(null);
-  const [loggedIn, setLoggedIn] = useState(false);
-
-
-  useEffect(() => {
-    const data = sessionStorage.getItem("userInfo");
-    if (data) {
-      setAuth(data);
-      setLoggedIn(true);
-    } else {
-      setAuth(null);
-      setLoggedIn(false);
-    }
-  }, []);
-  //axios.defaults.headers.common["Authorization"] = authUser?.token;
-
-  const value={
-    auth,
-    setAuth,
-  loggedIn,
-  setLoggedIn  }
-
-
-
-  return (
-    <AuthContext.Provider value={value}>
-      {props}
-    </AuthContext.Provider>
-  );
-};
-
-// custom hook
-
-export { useAuth, AuthProvider };*/}
