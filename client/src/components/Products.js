@@ -7,6 +7,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
+    const [checked, setChecked] = useState([]);
 
     //getall products
     const getAllProducts = async () => {
@@ -25,14 +26,29 @@ const Products = () => {
       }, []);
 
 
+    //filtering
+    const handleFilter = (value, id) => {
+        
+        if (value) {
+            const filteredProducts = products.filter(
+              (product) => product.os === id
+            );
+            setProducts(filteredProducts);
+          } else {
+            // Reset the filter to show all products
+            getAllProducts();
+      }
+    }
+
 
 
 
   return (
     <div className="container-fluid row mt-3 home-page">
   <div className="col-md-9">
+    {JSON.stringify(checked, null)}
     <div className="row dashboard">
-      <div className="col-md-10">
+      <div className="col-md-8">
         <div className="d-flex flex-wrap justify-content-around align-items-center">
           {products?.map((p, index) => (
             <div key={index} className="card m-3" style={{ width: "18rem", boxShadow: "0 6px 12px rgba(0,0,0,0.1)", borderRadius: "12px" }}>
@@ -59,15 +75,20 @@ const Products = () => {
   </div>
 
   <div className="col-md-3 filters text-center" style={{ textAlign: "left", fontSize: "2.1rem" }}>
-    <h4 className="mb-4" style={{  fontSize: "2.1rem" }}>Filter By Category</h4>
+    <h4 className="mb-3" style={{  fontSize: "2.1rem" }}>Filter By Category</h4>
+    
     <div className="d-flex  align-items-center">
-      <input type="checkbox" id="android" style={{ fontSize: "5rem" }} />
+      <input type="checkbox" id="android"  onChange={(e) => handleFilter(e.target.value, "Android 10")}   />
       <label htmlFor="android" style={{ fontSize: "2rem", marginBottom: "10px" }}>Android</label>
     </div>
 
-    {/* Add more filter options as needed */}
+     
+    
 
     {/* Price filter */}
+
+
+
     <div className="d-flex flex-column mt-3">
       <button
         className="btn btn-danger"
